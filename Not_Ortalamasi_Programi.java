@@ -1,11 +1,15 @@
 import java.util.Scanner;
 public class Not_Ortalamasi_Programi {
     public static void main(String[] args) {
+    
      // eğer kullanıcının ortalaması 60'dan büyük ise ekrana "Sınıfı Geçti" , küçük ise "Sınıfta Kaldı" yazsın.
+    
      // scanner atandı.
      Scanner inp = new Scanner(System.in);
+     
      // değişkenler tanımlandı.
      int mat,fiz,kim,tur,tar,muzik,toplam;
+     
      // kullanıcıdan veri alındı.
      try {
      System.out.print("Matematik dersi notunuzu giriniz :");
@@ -37,6 +41,7 @@ public class Not_Ortalamasi_Programi {
      String kosul = (sonuc >= 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
      System.out.println("Not ortalamanız : "+sonuc);
      System.out.println("Sınıfı Geçme/Kalma durumunuz : "+kosul);
+     
     }
     
 }
